@@ -1,0 +1,293 @@
+/Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/madhukandelli/x-job-bot/bot.py", line 8, in <module>
+    from twitter_poster import post_tweet
+  File "/Users/madhukandelli/x-job-bot/twitter_poster.py", line 6, in <module>
+    auth = tweepy.OAuth1UserHandler(
+  File "/Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/tweepy/auth.py", line 31, in __init__
+    raise TypeError("Consumer key must be string or bytes, not "
+TypeError: Consumer key must be string or bytes, not NoneType
+/Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-03-13 20:47:29.707046 - Error: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000104ba74e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000104b9f578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000104673924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x00000001046a7bf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x00000001046a5cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x00000001046e9a00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x00000001046e9430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x00000001046b11b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x0000000104b65e80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000104b69570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x0000000104b4b5dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000104b69df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000104b3c06c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x0000000104b8e9a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000104b8eb24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000104b9f1d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+2026-03-13 20:49:53.455571 - Error: __init__() got multiple values for argument 'options'
+2026-03-13 20:56:23.375536 - Error: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000102a074e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x00000001029ff578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x00000001024d3924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000102507bf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x0000000102505cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x0000000102549a00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x0000000102549430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x00000001025111b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x00000001029c5e80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x00000001029c9570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x00000001029ab5dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x00000001029c9df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x000000010299c06c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001029ee9a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x00000001029eeb24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x00000001029ff1d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+2026-03-13 20:59:06.225764 - Error: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x0000000100b7b4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000100b73578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000100647924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x000000010067bbf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x0000000100679cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x00000001006bda00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x00000001006bd430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x00000001006851b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x0000000100b39e80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000100b3d570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x0000000100b1f5dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000100b3ddf4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000100b1006c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x0000000100b629a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000100b62b24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000100b731d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Found 97 IT jobs
+Tweet text: 
+🚀 Hiring Now
+
+Shado Ventures: Senior ML Engineer - AI Document Intelligence (Remote, $15K Contract)
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/shado-ventures-senior-ml-engineer-ai-document-intelligence-remote-15k-contract
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x00000001012034e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x00000001011fb578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000100ccf924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000100d03bf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x0000000100d01cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x0000000100d45a00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x0000000100d45430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x0000000100d0d1b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x00000001011c1e80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x00000001011c5570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x00000001011a75dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x00000001011c5df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x000000010119806c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001011ea9a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x00000001011eab24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x00000001011fb1d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 2396 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Proton.ai: Senior Backend Engineer
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/proton-ai-senior-backend-engineer
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: unknown error: path is not absolute: job_card.png
+  (Session info: chrome=146.0.7680.76)
+Stacktrace:
+0   chromedriver                        0x0000000100faf4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000100fa7578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000100a7b924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000100a8ade8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 137692
+4   chromedriver                        0x0000000100abe724 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 348952
+5   chromedriver                        0x0000000100aba6b8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332460
+6   chromedriver                        0x0000000100b024e4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626904
+7   chromedriver                        0x0000000100ab91b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x0000000100f6de80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000100f71570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x0000000100f535dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000100f71df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000100f4406c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x0000000100f969a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000100f96b24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000100fa71d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 1435 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Dusk Labs: Security Engineer  - Research & Test
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/dusk-labs-security-engineer-research-test
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104e2f4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000104e27578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x00000001048fb924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x00000001049437f4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 369640
+4   chromedriver                        0x00000001049824e4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626904
+5   chromedriver                        0x00000001049391b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+6   chromedriver                        0x0000000104dede80 cxxbridge1$str$ptr + 2892848
+7   chromedriver                        0x0000000104df1570 cxxbridge1$str$ptr + 2906912
+8   chromedriver                        0x0000000104dd35dc cxxbridge1$str$ptr + 2784140
+9   chromedriver                        0x0000000104df1df4 cxxbridge1$str$ptr + 2909092
+10  chromedriver                        0x0000000104dc406c cxxbridge1$str$ptr + 2721308
+11  chromedriver                        0x0000000104e169a8 cxxbridge1$str$ptr + 3059544
+12  chromedriver                        0x0000000104e16b24 cxxbridge1$str$ptr + 3059924
+13  chromedriver                        0x0000000104e271d0 cxxbridge1$str$ptr + 3127168
+14  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 2302 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Proxify AB: Senior Backend Developer (Python)
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-7
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: /Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Message: unknown error: path is not absolute: job_card.png
+  (Session info: chrome=146.0.7680.76)
+Stacktrace:
+0   chromedriver                        0x000000010107f4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000101077578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000100b4b924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000100b5ade8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 137692
+4   chromedriver                        0x0000000100b8e724 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 348952
+5   chromedriver                        0x0000000100b8a6b8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332460
+6   chromedriver                        0x0000000100bd24e4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626904
+7   chromedriver                        0x0000000100b891b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x000000010103de80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000101041570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x00000001010235dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000101041df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x000000010101406c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001010669a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000101066b24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x00000001010771d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 1433 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Proxify AB: Senior Backend Developer (Node.js / Nest.js)
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-node-js-nest-js-2
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: unknown error: path is not absolute: job_card.png
+  (Session info: chrome=146.0.7680.76)
+Stacktrace:
+0   chromedriver                        0x000000010519f4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000105197578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000104c6b924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000104c7ade8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 137692
+4   chromedriver                        0x0000000104cae724 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 348952
+5   chromedriver                        0x0000000104caa6b8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332460
+6   chromedriver                        0x0000000104cf24e4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626904
+7   chromedriver                        0x0000000104ca91b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x000000010515de80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000105161570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x00000001051435dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000105161df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x000000010513406c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001051869a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000105186b24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x00000001051971d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 1297 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Proxify AB: Senior Fullstack Developer (Python)
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-python-2
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: unknown error: path is not absolute: job_card.png
+  (Session info: chrome=146.0.7680.76)
+Stacktrace:
+0   chromedriver                        0x0000000104f2f4e4 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x0000000104f27578 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x00000001049fb924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000104a0ade8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 137692
+4   chromedriver                        0x0000000104a3e724 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 348952
+5   chromedriver                        0x0000000104a3a6b8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 332460
+6   chromedriver                        0x0000000104a824e4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 626904
+7   chromedriver                        0x0000000104a391b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x0000000104eede80 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x0000000104ef1570 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x0000000104ed35dc cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000104ef1df4 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000104ec406c cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x0000000104f169a8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000104f16b24 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000104f271d0 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 1388 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Dusk Labs: Test Engineer
+
+Apply here 👇
+https://weworkremotely.com/remote-jobs/dusk-labs-test-engineer
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: 
