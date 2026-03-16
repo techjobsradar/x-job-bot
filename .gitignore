@@ -1,5 +1,6 @@
 job_card.png
-job_card_*.png__pycache__/
+job_card_*.png
+__pycache__/
 *.pyc
 selenium-profile/
 selenium-profile.zip
