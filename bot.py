@@ -90,7 +90,7 @@ def run_bot():
 
     job_to_post = None
 
-    for job in jobs:
+for job in jobs:
 
     link = job.get("link")
 
