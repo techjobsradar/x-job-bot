@@ -25,10 +25,12 @@ PROFILE_PATH = "selenium-profile"
 def load_posted():
 
     if not os.path.exists(POSTED_FILE):
+        # create file if not exists
+        open(POSTED_FILE, "w").close()
         return set()
 
-    with open(POSTED_FILE) as f:
-        return set(line.strip() for line in f)
+    with open(POSTED_FILE, "r") as f:
+        return set(line.strip() for line in f if line.strip())
 
 
 # ---------------------------
@@ -37,9 +39,13 @@ def load_posted():
 
 def save_posted(link):
 
-    with open(POSTED_FILE, "a") as f:
-        f.write(link + "\n")
+    link = link.strip()
 
+    posted = load_posted()
+
+    if link not in posted:
+        with open(POSTED_FILE, "a") as f:
+            f.write(link + "\n")
 
 # ---------------------------
 # START BROWSER
@@ -86,11 +92,16 @@ def run_bot():
 
     for job in jobs:
 
-        link = job["link"]
+    link = job.get("link")
 
-        if link not in posted_jobs:
-            job_to_post = job
-            break
+    if not link:
+        continue
+
+    link = link.strip()
+
+    if link not in posted_jobs:
+        job_to_post = job
+        break
 
 
     if not job_to_post:
@@ -116,6 +127,8 @@ def run_bot():
         post_tweet(driver, tweet, image_path)
 
         save_posted(job_to_post["link"])
+
+        posted_jobs.add(job_to_post["link"])
 
         print("✅ Job posted successfully")
 
