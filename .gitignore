@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+selenium-profile/
+selenium-profile.zip
+posted_jobs.txt

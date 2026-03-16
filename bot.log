@@ -5325,4 +5325,103 @@ https://remoteOK.com/remote-jobs/remote-senior-full-stack-engineer-zinkworks-112
 #ITJobs #TechJobs #Hiring
 
 Image: job_card.png
+Error posting: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x000000010266f424 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x00000001026674b8 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x000000010213b924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x000000010216fbf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x000000010216dcb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x00000001021b1a00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x00000001021b1430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x00000001021791b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x000000010262ddc0 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x00000001026314b0 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x000000010261351c cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x0000000102631d34 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000102603fac cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001026568e8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000102656a64 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000102667110 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 2216 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Senior Full Stack Engineer
+
+Apply here 👇
+https://remoteOK.com/remote-jobs/remote-senior-full-stack-engineer-zinkworks-1129643
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x000000010344b424 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x00000001034434b8 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000102f17924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000102f4bbf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x0000000102f49cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x0000000102f8da00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x0000000102f8d430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x0000000102f551b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x0000000103409dc0 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x000000010340d4b0 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x00000001033ef51c cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x000000010340dd34 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x00000001033dffac cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001034328e8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x0000000103432a64 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x0000000103443110 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 1998 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Staff Software Engineer Cloud Infrastructure
+
+Apply here 👇
+https://remoteOK.com/remote-jobs/remote-staff-software-engineer-cloud-infrastructure-tenstorrent-1129615
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
+Error posting: Message: session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+0   chromedriver                        0x00000001012f3424 cxxbridge1$str$ptr + 3160724
+1   chromedriver                        0x00000001012eb4b8 cxxbridge1$str$ptr + 3128104
+2   chromedriver                        0x0000000100dbf924 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75032
+3   chromedriver                        0x0000000100df3bf8 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 288748
+4   chromedriver                        0x0000000100df1cb4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 280744
+5   chromedriver                        0x0000000100e35a00 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 558580
+6   chromedriver                        0x0000000100e35430 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 557092
+7   chromedriver                        0x0000000100dfd1b4 _RNvCskE0kXQ3GIWk_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 327080
+8   chromedriver                        0x00000001012b1dc0 cxxbridge1$str$ptr + 2892848
+9   chromedriver                        0x00000001012b54b0 cxxbridge1$str$ptr + 2906912
+10  chromedriver                        0x000000010129751c cxxbridge1$str$ptr + 2784140
+11  chromedriver                        0x00000001012b5d34 cxxbridge1$str$ptr + 2909092
+12  chromedriver                        0x0000000101287fac cxxbridge1$str$ptr + 2721308
+13  chromedriver                        0x00000001012da8e8 cxxbridge1$str$ptr + 3059544
+14  chromedriver                        0x00000001012daa64 cxxbridge1$str$ptr + 3059924
+15  chromedriver                        0x00000001012eb110 cxxbridge1$str$ptr + 3127168
+16  libsystem_pthread.dylib             0x0000000194733c08 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000019472eba8 thread_start + 8
+
+Sleeping 2210 seconds
+Tweet text: 
+🚀 Hiring Now
+
+Software Engineering Intern
+
+Apply here 👇
+https://remoteOK.com/remote-jobs/remote-software-engineering-intern-emma-the-sleep-company-1129611
+
+#ITJobs #TechJobs #Hiring
+
+Image: job_card.png
 Error posting: 
