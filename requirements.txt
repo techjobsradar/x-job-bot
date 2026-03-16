@@ -1,0 +1,6 @@
+selenium
+requests
+beautifulsoup4
+pillow
+feedparser
+webdriver-manager
