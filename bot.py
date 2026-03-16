@@ -90,6 +90,7 @@ def run_bot():
 
     job_to_post = None
 
+
     for job in jobs:
 
         link = job.get("link")
@@ -101,12 +102,9 @@ def run_bot():
         link = link.strip()
 
         if link not in posted_jobs:
+         job_to_post = job
+         break
 
-            job_to_post = job
-            
-            break
-
-   
     if not job_to_post:
 
         print("No new jobs found")
