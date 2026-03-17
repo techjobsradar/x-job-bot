@@ -5525,4 +5525,133 @@ https://remoteOK.com/remote-jobs/remote-site-reliability-engineer-south-korea-mi
 #ITJobs #TechJobs #Hiring
 
 Image: job_card.png
-Error posting: 
+Error posting: /Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🚀 Starting TechJobsRadar Bot
+Collecting jobs...
+
+Fetching feed: https://www.indeed.co.in/rss?q=entry+level+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=junior+developer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=graduate+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=software+engineer+intern
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=devops+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=cloud+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=site+reliability+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+devops+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+cloud+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=engineering+manager
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=tech+lead
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=director+engineering
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=director+software
+Entries found: 0
+
+Fetching feed: https://weworkremotely.com/categories/remote-programming-jobs.rss
+Entries found: 25
+
+Fetching feed: https://remoteok.com/remote-dev-jobs.rss
+Entries found: 98
+
+Fetching feed: https://www.ycombinator.com/jobs/rss
+Entries found: 0
+
+Total jobs collected: 123
+Jobs collected: 123
+Posting job: The Global Talent Co.: Marketing Web Developer
+Poster generated: /Users/madhukandelli/x-job-bot/job_card_82963724d906406cbadf4903ea4d3b48.png
+❌ Posting failed: TWITTER_COOKIES secret not set
+Sleeping 1469 seconds
+/Users/madhukandelli/x-job-bot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🚀 Starting TechJobsRadar Bot
+Collecting jobs...
+
+Fetching feed: https://www.indeed.co.in/rss?q=entry+level+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=junior+developer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=graduate+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=software+engineer+intern
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=devops+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=cloud+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=site+reliability+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+software+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+devops+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=senior+cloud+engineer
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=engineering+manager
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=tech+lead
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=director+engineering
+Entries found: 0
+
+Fetching feed: https://www.indeed.co.in/rss?q=director+software
+Entries found: 0
+
+Fetching feed: https://weworkremotely.com/categories/remote-programming-jobs.rss
+Entries found: 25
+
+Fetching feed: https://remoteok.com/remote-dev-jobs.rss
+Entries found: 98
+
+Fetching feed: https://www.ycombinator.com/jobs/rss
+Entries found: 0
+
+Total jobs collected: 123
+Jobs collected: 123
+Posting job: The Global Talent Co.: Marketing Web Developer
+Poster generated: /Users/madhukandelli/x-job-bot/job_card_0d4d61724a5f4bd1afde452a3a97df7e.png
+❌ Posting failed: TWITTER_COOKIES secret not set
+Sleeping 1359 seconds

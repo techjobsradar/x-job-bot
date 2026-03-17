@@ -111,9 +111,6 @@ def run_bot():
     finally:
         driver.quit()
 
-    delay = random.randint(900, 1800)
-    print("Sleeping", delay, "seconds")
-    time.sleep(delay)
 
 
 # ---------------------------
