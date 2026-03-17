@@ -27,4 +27,6 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Run Job Bot
+        env:
+          TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
         run: python bot.py
