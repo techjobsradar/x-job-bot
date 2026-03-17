@@ -5,3 +5,6 @@ __pycache__/
 selenium-profile/
 selenium-profile.zip
 posted_jobs.txt
+twitter_cookies.json
+save_cookies.py
+chrome-profile/
